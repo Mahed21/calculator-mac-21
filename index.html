@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>My Calculator</title>
+</head>
+<body>
+   
+    <section id="main-div" class=>
+        <div class="calculator-background pb-5 pt-5">
+            <!-- first row -->
+            
+                <div class="row ps-5 pe-5">
+                <div class="col-lg-9 col-md-9 col-9">
+                    <input id ="input" type="text" class="screen w-100 p-2 rounded">
+                </div>
+                <div class="col-lg-3 col-md-3 col-3">
+                    <input id="clear" type="button" value="C" class="clear w-100 p-2 rounded">
+                </div>
+               </div>
+            <!-- second row -->
+               <div class="row ps-5 pe-5 mt-2">
+                   <div class="col-lg-3 col-md-3 col-3">
+                    <input  id="one" type="button" value="1" class="value w-100 p-3 rounded one">
+                   </div>
+                   <div class="col-lg-3 col-md-3 col-3 ">
+                    <input id="two" type="button" value="2" class="value w-100 p-3 rounded one">
+                   </div>
+                   <div class="col-lg-3 col-md-3 col-3 ">
+                    <input id="three" type="button" value="3" class="value w-100 p-3 rounded one">
+                   </div>
+                  <div class="col-lg-3 col-md-3 col-3 ">
+                    <input id="divide" type="button" value="/" class="value w-100 p-3 rounded one">
+                  </div>
+               </div>
+
+               <!-- third row -->
+               <div class="row ps-5 pe-5 mt-2">
+                <div class="col-lg-3 col-md-3 col-3">
+                 <input id="four" type="button" value="4" class="value w-100 p-3 rounded one">
+                </div>
+                <div class="col-lg-3 col-md-3 col-3 ">
+                 <input id="five" type="button" value="5" class="value w-100 p-3 rounded one">
+                </div>
+                <div class="col-lg-3 col-md-3 col-3 ">
+                 <input id="six" type="button" value="6" class="value w-100 p-3  rounded one">
+                </div>
+               <div class="col-lg-3 col-md-3 col-3 ">
+                 <input id="minus"  type="button" value="-" class="value w-100 p-3 rounded one">
+               </div>
+            </div>
+           <!-- fourth row -->
+           <div class="row ps-5 pe-5 mt-2">
+            <div class="col-lg-3 col-md-3 col-3">
+             <input id="seven"  type="button" value="7" class="value w-100 p-3 rounded one">
+            </div>
+            <div class="col-lg-3 col-md-3 col-3 ">
+             <input id="eight" type="button" value="8" class="value w-100 p-3 rounded one">
+            </div>
+            <div class="col-lg-3 col-md-3 col-3 ">
+             <input  id="nine" type="button" value="9" class="value w-100 p-3 rounded one">
+            </div>
+           <div class="col-lg-3 col-md-3 col-3 ">
+             <input id="plus" type="button" value="+" class="value w-100 p-3 rounded one">
+           </div>
+        </div>
+        <!-- fifth row -->
+        <div class="row ps-5 pe-5 mt-2">
+            <div class="col-lg-3 col-md-3 col-3">
+             <input id="dot"  type="button" value="." class="value w-100 p-3 rounded one">
+            </div>
+            <div class="col-lg-3 col-md-3 col-3 ">
+             <input id="zero" type="button" value="0" class="value w-100 p-3 rounded one">
+            </div>
+            <div class="col-lg-3 col-md-3 col-3 ">
+             <input id="equal" type="button" value="=" class="value w-100 p-3 rounded equal-field">
+            </div>
+           <div class="col-lg-3 col-md-3 col-3 ">
+             <input id="star" type="button" value="*" class="value w-100 p-3 rounded one">
+           </div>
+        </div>
+        <p id="paragraph"></p>
+        <p id="Second-paragraph"></p>
+        <p id="sign"></p>
+        <p id="result"></p>
+    
+
+           
+
+
+        </div>
+
+    </section>
+    <script src="js/calculator.js"></script>
+</body>
+</html>

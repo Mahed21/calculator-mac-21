@@ -1,0 +1,37 @@
+
+.clear{
+    background-color:rgb(230, 48, 78);
+    color:white;
+    
+}
+.screen
+{
+    border:5px solid gray;
+}
+
+.value
+{
+    background-color: navy;
+    color:white;
+}
+.calculator-background{
+     background-color: black;
+    
+     
+}
+.equal-field
+{
+    background-color:rgb(230, 48, 78);
+    color:white;  
+    border:5px solid gray;
+}
+.one
+{
+    background-color: whitesmoke;
+    color:black;
+    border:5px solid gray;
+}
+p
+{
+    display: none;
+}
